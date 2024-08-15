@@ -1,0 +1,279 @@
+/* General Styles */
+.event-details-container {
+  padding: 30px;
+  line-height: 1.6;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.ed-images {
+  margin-top: 40px;
+  /* margin-left: 100px; */
+}
+
+.ed-image {
+  width: 600px;
+  height: 400px;
+  /* margin: 20px; */
+}
+
+.ed-image:hover {
+  transform: scale(1.06);
+}
+
+.ed-desc {
+  font-size: 20px;
+}
+
+.ed-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+}
+
+.ed-infop {
+  font-size: 18px;
+}
+
+.ed-regc {
+  font-size: 20px;
+}
+
+/* .ed-eventhead {
+  margin-left: 50px;
+} */
+
+.ed-table {
+  border-collapse: collapse;
+  /* margin-left: 40px; */
+  width: 100%; /* Ensure table is responsive */
+}
+
+.ed-table td {
+  padding: 4px 8px; /* Adjust as needed */
+  text-align: left; /* Ensures text is aligned to the left */
+}
+
+.ed-bullet td {
+  padding-left: 4px; /* Adjust to move content closer to the left */
+}
+
+.ed-tschedule {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-left: 0; /* Align table properly */
+  font-family: Arial, sans-serif;
+}
+
+.ed-tschedule th, .ed-tschedule td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.ed-tschedule th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+iframe{
+  width: 100%;
+  height:450px;
+}
+
+.ed-schedule .ed-bullet td {
+  border-top: 1px solid #ddd;
+}
+
+.ed-schedule .ed-bullet td:first-child {
+  font-weight: bold;
+  color: #333;
+}
+
+.ed-schedule .ed-bullet td {
+  padding-left: 15px;
+}
+
+.ed-infop {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* .ed-infops {
+  margin-left: 30px;
+} */
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  
+  .event-details-container{
+    width: 80%;
+  }
+
+  .admin-navbar{
+    width: 15%;
+  }
+
+  .ed-images{
+    margin:0px;
+  }
+  .ed-map-container{
+    width: 100%;
+  }
+
+  iframe{
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .event-details-container{
+    width: 85%;
+    margin: 0%;
+    padding: 0px;
+  }
+
+  .admin-navbar{
+    width: 15%;
+  }
+  .ed-map-container{
+    width: 80%;
+  }
+
+  .ed-images{
+    margin:0px;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+  .ed-infop{
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .event-details-container{
+    width: 80%;
+    margin: 0%;
+    padding: 0px;
+  }
+
+  .ed-map-container{
+    width: 80%;
+  }
+
+  .admin-navbar{
+    width: 15%;
+  }
+
+  .ed-images{
+    margin:0px;
+  }
+
+  iframe{
+    width: 100%;
+  }
+  .ed-infop, .ed-regc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .event-details-container{
+    width: 80%;
+    margin: 0%;
+    padding: 0px;
+  }
+
+  .ed-map-container{
+    width: 80%;
+  }
+
+  .admin-navbar{
+    width: 15%;
+  }
+  .ed-images{
+    margin:0px;
+  }
+
+  iframe{
+    width: 100%;
+  }
+  .ed-regc {
+    font-size: 18px;
+  }
+
+  .ed-tschedule th, .ed-tschedule td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .event-details-container{
+    width: 80%;
+    margin: 0%;
+    padding: 0px;
+  }
+
+  .ed-map-container{
+    width: 80%;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+
+  .admin-navbar{
+    width: 15%;
+  }
+
+  .ed-images{
+    margin:0px;
+  }
+
+  .ed-tschedule th, .ed-tschedule td {
+    padding: 4px;
+    font-size: 12px;
+  }
+
+}
+
+/* Adjust iframe inside the map container */
+@media (max-width: 750px) {
+  .event-details-container{
+    width: 80%;
+    margin: 0%;
+    padding: 0px;
+  }
+
+  .ed-map-container{
+    width: 80%;
+  }
+
+  .ed-images{
+    margin:0px;
+  }
+
+
+  .admin-navbar{
+    width: 15%;
+  }
+
+  iframe{
+    width: 100%;
+  }
+  .ed-map-container iframe {
+    width: 100%;
+  }
+}

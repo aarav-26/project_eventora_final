@@ -1,0 +1,172 @@
+/* General Footer Styles */
+.footer {
+  background-color: #2c3e50; /* Dark background for a professional look */
+  color: #ecf0f1; /* Light text color for contrast */
+  padding: 20px; /* Increased padding for a spacious feel */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  border-radius: 20px; /* Rounded corners for a polished look */
+  width: 98%;
+  position: relative;
+  bottom: 0;
+  opacity: 0; /* Start with hidden footer */
+  transform: translateY(20px); /* Start slightly below */
+  animation: fadeIn 1s forwards; /* Smooth fade-in animation */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  to {
+      opacity: 1; /* Fully visible */
+      transform: translateY(0); /* Move to original position */
+  }
+}
+
+/* Footer Content Container */
+.footer-content {
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: flex-start; /* Align items at the start */
+  width: 80%;
+  margin: 0 auto; /* Center content */
+}
+
+/* Footer Left Content */
+.footer-left {
+  flex: 1; /* Take up equal space on the left side */
+  padding: 0 10px; /* Add padding */
+}
+
+.footer-about {
+  text-align: left; /* Left align text */
+}
+
+.footer-about h2 {
+  font-size: 1.5rem; /* Title font size */
+  margin-bottom: 10px; /* Space below title */
+  font-weight: 700; /* Bold title for emphasis */
+  color:#f8f6f6;
+  transition: transform 0.5s ease, color 0.5s ease; /* Smoother animation for title */
+}
+
+.footer-about h2:hover {
+  transform: scale(1.1); /* Scale effect on hover */
+  color: #FF585F; /* New color on hover */
+}
+
+.footer-about p {
+  font-size: 0.9rem; /* Paragraph font size */
+  margin: 0; /* Remove default margin */
+  line-height: 1.4; /* Adjusted line height for readability */
+  transition: color 0.5s ease; /* Smooth transition */
+}
+
+.footer-about p:hover {
+  color: #FF585F; /* New color on hover */
+}
+
+/* Footer Right Content */
+.footer-right {
+  flex: 2; /* Take up more space on the right side */
+  display: flex; /* Flexbox for right content */
+  justify-content: space-between; /* Space between sections */
+  padding: 0 10px; /* Add padding */
+}
+
+/* Footer Sections */
+.footer-links, .footer-services, .footer-resources, .footer-contact {
+  margin: 0 10px; /* Adjusted space between sections */
+  transition: transform 0.5s ease, color 0.5s ease; /* Smooth transition */
+}
+
+.footer-links:hover, .footer-services:hover, .footer-resources:hover, .footer-contact:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  color: #FF585F; /* New color on hover */
+}
+
+.footer-links h3, .footer-services h3, .footer-resources h3, .footer-contact h3 {
+  font-size: 1.2rem; /* Section title font size */
+  margin-bottom: 10px; /* Space below section titles */
+  font-weight: 600; /* Semi-bold section titles */
+  transition: color 0.5s ease, transform 0.5s ease; /* Smooth transition */
+}
+
+.footer-links h3:hover, .footer-services h3:hover, .footer-resources h3:hover, .footer-contact h3:hover {
+  color: #FF585F; /* New color on hover */
+  transform: scale(1.1); /* Scale effect on hover */
+}
+
+.footer-links ul, .footer-services ul, .footer-resources ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.footer-links li, .footer-services li, .footer-resources li {
+  margin: 4px 0; /* Space between list items */
+  transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.footer-links li:hover, .footer-services li:hover, .footer-resources li:hover {
+  transform: translateX(5px); /* Slide effect on hover */
+  background: rgba(160, 155, 150, 0.2); /* New background color on hover */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px; /* Padding for list items */
+}
+
+.footer-links a, .footer-services a, .footer-resources a {
+  color: #ecf0f1; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-size: 0.9rem; /* Smaller font size for links */
+  transition: color 0.5s ease, transform 0.5s ease; /* Smooth transition */
+}
+
+.footer-links a:hover, .footer-services a:hover, .footer-resources a:hover {
+  color: #FF585F; /* New color on hover */
+  transform: translateX(5px); /* Slide effect on hover */
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  text-align: center; /* Center text */
+  font-size: 0.8rem; /* Smaller font size */
+  margin-top: 10px; /* Space above the copyright */
+  color: #bdc3c7; /* Lighter text color */
+}
+
+/* Social Icons */
+.footer-social {
+  margin-top: 10px; /* Space above social icons */
+}
+
+.social-icons {
+  display: flex; /* Flexbox for social icons */
+  justify-content: center; /* Center the icons */
+  gap: 15px; /* Space between icons */
+}
+
+.social-icons a {
+  color: #ecf0f1; /* Icon color */
+  font-size: 1.5rem; /* Adjusted icon size */
+  transition: color 0.5s ease, transform 0.5s ease; /* Smooth transition */
+}
+
+.social-icons a:hover {
+  color: #FF585F; /* New color on hover */
+  transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+      padding: 10px; /* Reduced padding for smaller screens */
+  }
+
+  .footer-content {
+      flex-direction: column; /* Stack sections vertically on smaller screens */
+      width: 100%; /* Full width */
+  }
+
+  .footer-left, .footer-right {
+      flex: 1; /* Equal space for all sections */
+      padding: 10px 0; /* Add padding */
+  }
+}

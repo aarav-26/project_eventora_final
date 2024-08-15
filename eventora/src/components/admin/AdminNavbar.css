@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bruno+Ace+SC&family=Lugrasimo&display=swap');
+.admin-navbar {
+    width: 15%;
+    background: #343a40;
+    padding-top: 20px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    position: fixed;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  .logout-button-admin{
+    background-color: none;
+  }
+
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .nav-list li {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-list li a:hover {
+    color: #ffdd57;
+    font-size: 20px;
+  }
+  
+  .logout-list {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .logout-list li{
+    margin-bottom: 20px;
+  }
+  .logout-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+
+  }
+  
+  .logout-list li a:hover {
+    color: #ffdd57;
+  }
+  .create-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Remove text decoration */
+}
+
+.create-button a {
+  color: inherit; /* Inherit color from button */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Ensure it fills the button */
+}

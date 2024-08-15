@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "title": "Music Concert",
+      "date": "2024-08-01",
+      "description": "Join us for a night of great music featuring popular bands.",
+      "isPopular": true,
+      "image": "/card_img/1.png"
+    },
+    {
+      "id": 2,
+      "title": "Art Exhibition",
+      "date": "2024-08-05",
+      "description": "Explore the latest art pieces from emerging artists.",
+      "isPopular": false,
+      "image": "/card_img/2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tech Conference",
+      "date": "2024-08-10",
+      "description": "Discover the latest in technology at this exciting conference.",
+      "isPopular": true,
+      "image": "/card_img/3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Food Festival",
+      "date": "2024-08-15",
+      "description": "Taste a variety of cuisines from top chefs around the world.",
+      "isPopular": false,
+      "image": "/card_img/4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Fitness Workshop",
+      "date": "2024-08-20",
+      "description": "Get fit and learn new workout techniques at this interactive workshop.",
+      "isPopular": false,
+      "image": "/card_img/5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Book Fair",
+      "date": "2024-09-01",
+      "description": "Meet your favorite authors and find new books at our annual book fair.",
+      "isPopular": true,
+      "image": "/card_img/6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Science Expo",
+      "date": "2024-09-05",
+      "description": "Engage with interactive science exhibits and presentations.",
+      "isPopular": false,
+      "image": "/card_img/7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Film Festival",
+      "date": "2024-09-10",
+      "description": "Watch a selection of the best independent films and meet the creators.",
+      "isPopular": true,
+      "image": "/card_img/8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Charity Gala",
+      "date": "2024-09-15",
+      "description": "An elegant evening of fundraising and entertainment for a good cause.",
+      "isPopular": false,
+      "image": "/card_img/9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Travel Expo",
+      "date": "2024-09-20",
+      "description": "Explore travel destinations and meet travel experts at this expo.",
+      "isPopular": false,
+      "image": "/card_img/10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Fashion Show",
+      "date": "2024-10-01",
+      "description": "Witness the latest trends and designs from top fashion designers.",
+      "isPopular": true,
+      "image": "/card_img/11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Photography Workshop",
+      "date": "2024-10-05",
+      "description": "Learn photography techniques from industry professionals.",
+      "isPopular": false,
+      "image": "/card_img/12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Gaming Tournament",
+      "date": "2024-10-10",
+      "description": "Compete in our gaming tournament and win exciting prizes.",
+      "isPopular": true,
+      "image": "/card_img/13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Cooking Class",
+      "date": "2024-10-15",
+      "description": "Learn how to cook delicious dishes from a professional chef.",
+      "isPopular": false,
+      "image": "/card_img/14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Music Festival",
+      "date": "2024-10-20",
+      "description": "Enjoy a weekend filled with live music from various genres.",
+      "isPopular": true,
+      "image": "/card_img/15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Historical Tour",
+      "date": "2024-11-01",
+      "description": "Take a guided tour of historic landmarks and learn about their significance.",
+      "isPopular": false,
+      "image": "/card_img/16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Wine Tasting",
+      "date": "2024-11-05",
+      "description": "Sample a variety of wines and learn about the winemaking process.",
+      "isPopular": false,
+      "image": "/card_img/17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Dance Workshop",
+      "date": "2024-11-10",
+      "description": "Improve your dance skills with our professional instructors.",
+      "isPopular": false,
+      "image": "/card_img/18.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Tech Workshop",
+      "date": "2024-11-15",
+      "description": "Participate in hands-on tech workshops and learn new skills.",
+      "isPopular": true,
+      "image": "/card_img/19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Yoga Retreat",
+      "date": "2024-11-20",
+      "description": "Join us for a relaxing yoga retreat in a serene location.",
+      "isPopular": false,
+      "image": "/card_img/20.jpg"
+    }
+  ]
+  

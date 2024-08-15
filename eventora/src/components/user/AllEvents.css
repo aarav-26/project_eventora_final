@@ -1,0 +1,34 @@
+/* src/components/user/AllEvents.css */
+.all-events-container {
+    padding: 20px;
+  }
+  
+  .register{
+    margin-bottom: 200px;
+  }
+  .events-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .event-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    /* width: calc(20.333% - 20px); */
+    width:20%; /* Adjust as needed for responsiveness */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .event-details {
+    padding: 15px;
+  }
+  

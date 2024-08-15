@@ -1,0 +1,131 @@
+/* General Styles */
+.register-details-container {
+  padding: 30px;
+  line-height: 1.6;
+  width: 90%;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.register-images {
+  margin-top: 40px;
+  /* margin-left: 100px; */
+}
+
+.register-image {
+  width: 600px;
+  height: 400px;
+  margin: 40px;
+  /* margin: 20px; */
+}
+
+.register-image:hover {
+  transform: scale(1.06);
+}
+
+.register-desc {
+  font-size: 20px;
+}
+
+.register-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+}
+
+.register-infop {
+  font-size: 18px;
+}
+
+.register-regc {
+  font-size: 20px;
+}
+
+/* .register-eventhead {
+  margin-left: 50px;
+} */
+
+.register-table {
+  border-collapse: collapse;
+  /* margin-left: 40px; */
+  width: 100%; /* Ensure table is responsive */
+}
+
+.register-table td {
+  padding: 4px 8px; /* Adjust as needed */
+  text-align: left; /* Ensures text is aligned to the left */
+}
+
+.register-bullet td {
+  padding-left: 4px; /* Adjust to move content closer to the left */
+}
+
+.register-tschedule {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-left: 0; /* Align table properly */
+  font-family: Arial, sans-serif;
+}
+
+.register-tschedule th, .register-tschedule td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.register-tschedule th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+.register-tschedule tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.register-tschedule tr:hover {
+  background-color: #f1f1f1;
+}
+
+.register-tschedule td b {
+  font-weight: bold;
+}
+
+.register-infops {
+  font-size: 18px;
+  margin: 0;
+}
+
+.register-map-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden; /* Ensures map fits within the container */
+}
+
+.register-map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Removes the default border */
+}
+
+@media (max-width: 768px) {
+  .register-image {
+    width: 100%;
+    height: auto; /* Ensures images are responsive */
+  }
+
+  .register-container {
+    flex-direction: column;
+  }
+
+  .register-table {
+    width: 100%; /* Ensure table is responsive */
+  }
+
+  .register-tschedule {
+    font-size: 14px;
+  }
+}

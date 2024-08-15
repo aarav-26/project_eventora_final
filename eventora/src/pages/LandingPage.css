@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .landing-page {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6a0dad;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-button,
+  .signup-button {
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    background-color: transparent;
+    color: #6a0dad;
+    border: 1px solid #6a0dad;
+  }
+  
+  .signup-button {
+    background-color: #6a0dad;
+    color: #fff;
+  }
+  
+  .hero-section {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+  }
+  
+  .hero-section h1 span {
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #6a0dad;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .events-section {
+    padding: 40px 20px;
+  }
+  
+  .events-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .events-section h2 span {
+    color: #6a0dad;
+  }
+  
+  .events {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .event-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .event-image {
+    height: 200px;
+  }
+  
+  .brown-placeholder {
+    background-color: brown;
+  }
+  
+  .event-details {
+    padding: 20px;
+  }
+  
+  .event-details h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .event-details p {
+    margin: 5px 0;
+  }
+  
+  .view-more-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #6a0dad;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  

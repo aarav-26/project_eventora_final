@@ -1,0 +1,35 @@
+.about-us {
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+ 
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  p, ul {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  a {
+    color: #f9a825;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

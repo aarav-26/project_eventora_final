@@ -1,0 +1,134 @@
+/* Support.css */
+
+.whole{
+  height: 100%;
+  width: 100%;
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.supportimg{
+  width: 400px;
+  height: 400px;
+  margin-top: 350px;
+  margin-right: 300px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.support-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  background: linear-gradient(to right,hsla(211, 29%, 74%, 0.651),#ced4da00);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.507);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: auto;
+  margin-left: 250px;
+  margin-top: 250px;
+  margin-bottom: 125px;
+}
+
+.support-container h1 {
+  margin-bottom: 20px;
+  color: #343a40;
+  font-size: 2.5em;
+}
+
+.support-container p {
+  margin-bottom: 20px;
+  color: #495057;
+}
+
+.support-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.support-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #343a40;
+  font-size: 1.1em;
+}
+
+.support-form .form-group input,
+.support-form .form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #495057;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background: #ffffff;
+}
+
+.support-form .form-group input::placeholder,
+.support-form .form-group textarea::placeholder {
+  color: #adb5bd;
+  font-style: italic;
+}
+
+.support-form .form-group input:hover,
+.support-form .form-group textarea:hover {
+  border-color: #80bdff;
+}
+
+.support-form .form-group input:focus,
+.support-form .form-group textarea:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  outline: none;
+}
+
+.support-form .form-group textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.submit-button:active {
+  background-color: #1e7e34;
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  .support-container {
+      padding: 20px;
+  }
+
+  .support-container h1 {
+      font-size: 2em;
+  }
+
+  .submit-button {
+      width: 100%;
+      padding: 12px;
+  }
+}

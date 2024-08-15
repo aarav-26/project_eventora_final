@@ -1,0 +1,117 @@
+
+.ep-filter{
+    width: 100%;
+    gap:0px;   
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.ep-filter-section {
+    width: 10%;
+    float: left;
+    padding: 10px;
+}
+
+.ep-filter-section h4 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.ep-filter-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ep-filter-group h5 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.ep-filter-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ep-apply-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ep-results {
+    width: 55%;
+    float: right;
+    padding: 10px;
+    text-align: left;
+}
+
+.ep-results-section h4 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.ep-event-card {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ep-event-card img {
+    width:50%;
+    height:250px;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.ep-event-info {
+    padding: 10px;
+    width: 70%;
+    position: relative;
+}
+
+.ep-event-info h5 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.ep-event-info p {
+    margin-bottom: 5px;
+}
+
+.ep-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: #00e676;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.ep-discount {
+    background-color: #ff1744;
+}
+
+.ep-results-section {
+    width: 100%;
+    max-height: 680px; /* Set a max height to create a scrollable area */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.ep-results-section-header{
+    text-align: left;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+.ep-results-section::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+}
